@@ -35,7 +35,7 @@ def Zcasino():
         money += ceil(money / 2)
         return (print("money =" + str(money)))
     else:
-        print("jouez de nouveau")
+        print("Loser!")
         money = 0
         return (print("money=" + str(money)))
 
